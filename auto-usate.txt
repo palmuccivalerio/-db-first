@@ -1,0 +1,29 @@
+AUTO\_USATE
+___________
+
+id - INT - PRIMARY\_KEY (NOT NULL, UNIQUE) - AUTO\_INCREMENT //(numero univoco generato automaticamente per ogni nuova auto)
+
+marca - VARCHAR(255) //(stringa di caratteri di lunghezza massima di 255, utilizzata per memorizzare il nome del produttore dell'auto)
+
+modello - VARCHAR(255) (stringa di caratteri di lunghezza massima di 255, utilizzata per memorizzare il nome del modello dell'auto)
+
+anno - YEAR (campo di anno, utilizzato per memorizzare l'anno di produzione dell'auto)
+
+targa - VARCHAR(7) (stringa di caratteri di lunghezza massima di 7, utilizzata per memorizzare la targa dell'auto, deve essere unica)
+
+chilometraggio - BIGINT (grande intero senza segno, utilizzato per memorizzare il chilometraggio dell'auto)
+
+prezzo - DECIMAL(8, 2) (numero decimale con 8 cifre intere e 2 cifre decimali, utilizzato per memorizzare il prezzo dell'auto in euro)
+
+disponibilita - TINYINT (intero piccolo, utilizzato per indicare se l'auto è disponibile o no, 0 = non disponibile, 1 = disponibile)
+
+descrizione - MEDIUMTEXT (testo medio, utilizzato per memorizzare una descrizione dell'auto)
+
+foto - TEXT (stringa di testo che memorizza il percorso dell'immagine associata all'auto)
+
+cambio - VARCHAR(255) (stringa di caratteri di lunghezza massima di 255, utilizzata per memorizzare il tipo di cambio dell'auto)
+
+posti - TINYINT (intero piccolo, utilizzato per memorizzare il numero di posti a sedere dell'auto)
+
+peso - INT (intero, utilizzato per memorizzare il peso dell'auto in chilogrammi)
+
